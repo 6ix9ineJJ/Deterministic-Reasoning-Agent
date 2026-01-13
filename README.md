@@ -1,10 +1,10 @@
-# Deterministic RAG Agent
+# Deterministic Reasoning Agent
 
 A sophisticated Retrieval-Augmented Generation (RAG) system that uses a deterministic graph-based approach to answer complex questions through controlled, multi-step reasoning.
 
 ## 🎯 Overview
 
-This project implements a **deterministic RAG agent** that can tackle complex questions requiring multi-step reasoning. Unlike traditional RAG systems that rely on simple semantic similarity, this agent uses a sophisticated graph-based approach to break down complex queries into manageable sub-tasks and execute them systematically.
+This project implements a **deterministic reasoning agent** that can tackle complex questions requiring multi-step reasoning. Unlike traditional RAG systems that rely on simple semantic similarity, this agent uses a sophisticated graph-based approach to break down complex queries into manageable sub-tasks and execute them systematically.
 
 ## ✨ Key Features
 
@@ -36,8 +36,8 @@ The agent follows a deterministic state machine with these key components:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/Deterministic-Rag-Agent.git
-cd Deterministic-Rag-Agent
+git clone https://github.com/6ix9ineJJ/Deterministic-Reasoning-Agent.git
+cd Deterministic-Reasoning-Agent
 
 # Create virtual environment
 python -m venv venv
@@ -69,7 +69,7 @@ cp .env.example .env
    docker-compose up --build
    ```
 
-## � Use Case: Harry Potter Analysis
+## 📚 Use Case: Harry Potter Analysis
 
 The system is demonstrated using the first Harry Potter book to showcase complex reasoning capabilities:
 
@@ -94,7 +94,7 @@ The system is demonstrated using the first Harry Potter book to showcase complex
 ## 📁 Project Structure
 
 ```
-Deterministic-Rag-Agent/
+Deterministic-Reasoning-Agent/
 ├── run_agent_simulation.py      # Main Streamlit application
 ├── pipeline_functions.py        # Core agent logic and functions
 ├── helper_functions.py          # Utility functions
@@ -107,7 +107,7 @@ Deterministic-Rag-Agent/
 └── docker-compose.yml           # Docker configuration
 ```
 
-## � Core Techniques
+## 🧠 Core Techniques
 
 1. **Multi-modal Retrieval**: Combines exact matching with semantic search
 2. **Query Anonymization**: Removes bias from pre-trained knowledge
